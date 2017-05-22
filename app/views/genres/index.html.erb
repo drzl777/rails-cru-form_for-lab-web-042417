@@ -1,0 +1,8 @@
+<h1>All Genres</h1>
+
+<%= div_for @genres do |genre| %>
+
+<h3><%=link_to genre.name, genre_path(genre)%></h3>
+<% end %>
+
+<%=link_to "New Genre", new_genre_path %>

@@ -36,6 +36,7 @@ describe 'form' do
 
     click_on "Update Genre"
 
+
     expect(page).to have_content("My edit")
   end
 end
